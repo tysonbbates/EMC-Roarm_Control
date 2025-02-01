@@ -13,3 +13,6 @@ which will read position data from port /dev/ttyUSB1 and publish to JointStates 
 ## Arduino File
 
 getMasterPosition.ido is an Arduino C++ file that does not need to be imported to the ROS workspace.
+
+## To Do
+The read_and_publish.py file within emc_arm_controller is the serial reader and ROS2 publisher node. The serial reader class must be converted to shell script / compiler based language but the publisher class must remain in Python.
